@@ -46,7 +46,7 @@ const props = defineProps({
     },
     wedge: {
       type: Boolean,
-      default: true
+      default: false
     },
 })
 
