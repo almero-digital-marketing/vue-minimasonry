@@ -1,5 +1,5 @@
 <template>
-  <Masonry :gutter="10" :surroundingGutter="false">
+  <Masonry :gutter="100" :surroundingGutter="false">
     <div class="item">Lorem ipsum dolor sit amet, cum ut movet dictas scribentur, dicta saperet vix te. Mea graece sententiae id, ei qui mundi pericula adipiscing. At mucius facilisis dissentiunt vim, nostrum patrioque te ius. Dicant blandit ut nam.</div>
     <div class="item">Qui et assum labore assueverit. Corpora suscipiantur sit et. Fugit oblique torquatos et vel. Cu eos hinc volumus, duis nusquam corrumpit id has. Te ius debet propriae splendide.</div>
     <div class="item">At ius harum integre intellegam, ei ipsum nostro quaestio eos, legendos quaerendum mea ex. Melius recteque mediocritatem ut sea. An adhuc exerci deserunt usu. Eum persius sententiae reprehendunt id, id per error repudiandae. Id erroribus elaboraret liberavisse vim, in est graeco qualisque. In tibique probatus mea, pri eu aliquando reprimique eloquentiam.</div>
