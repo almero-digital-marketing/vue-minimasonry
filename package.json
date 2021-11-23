@@ -1,0 +1,31 @@
+{
+  "name": "vue-minimasonry",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-minimasonry.umd.js",
+  "module": "./dist/vue-minimasonry.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-minimasonry.es.js",
+      "require": "./dist/vue-minimasonry.umd.js"
+    }
+  },
+  "peerDependencies": {
+    "minimasonry": "^1.3.0",
+    "vue": "^3.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "vite": "^2.5.4"
+  }
+
+}
