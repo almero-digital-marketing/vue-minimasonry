@@ -93,7 +93,6 @@ watch(props, async () => {
 .masonry {
   position: relative;
   width: 100%;
-  border: 1px solid red;
 }
 .masonry > ::v-deep(*) {
   position: absolute;
